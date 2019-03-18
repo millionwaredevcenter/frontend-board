@@ -1,5 +1,5 @@
 {
-  "name": "millionware-devcenter-frontend-board",
+  "name": "frontend-board",
   "scripts": {
     "now-build": "react-scripts build"
   }
