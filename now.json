@@ -1,6 +1,11 @@
 {
-  "name": "frontend-board",
-  "scripts": {
-    "now-build": "react-scripts build"
-  }
+  "version": 2,
+  "name": "front-app",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ]
 }
